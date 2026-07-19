@@ -1,5 +1,5 @@
 <div align="center" style="margin-top: 100px;">
-  <img src="ankara-uni-logo.jpeg" width="250" />
+  <img src="./ankara-uni-logo.jpeg" width="250" />
   <br/><br/><br/>
   <h1>Ağ Tabanlı Paralel Dağıtım Sistemleri</h1>
   <h2>Final Projesi Kapsamlı Raporu</h2>
@@ -9,6 +9,9 @@
   <br/><br/>
   <h3>Proje GitHub Deposu</h3>
   <a href="https://github.com/2run66/ag-tabanli-final" style="font-size: 1.2em;">https://github.com/2run66/ag-tabanli-final</a>
+  <br/><br/>
+  <h3>Proje Anlatım Videoları (Google Drive)</h3>
+  <a href="https://drive.google.com/drive/u/2/folders/1M4WSSOrCqJOPP0527vR-pAMSMNg888ph" style="font-size: 1.2em;">Videoları İzlemek İçin Tıklayın</a>
 </div>
 <div style="page-break-after: always;"></div>
 
