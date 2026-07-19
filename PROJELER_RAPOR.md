@@ -8,7 +8,7 @@
   <p style="font-size: 1.5em; font-weight: bold;">21290318</p>
   <br/><br/>
   <h3>Proje GitHub Deposu</h3>
-  <a href="https://github.com/2run66/ag-tabanli-proje-1-2" style="font-size: 1.2em;">https://github.com/2run66/ag-tabanli-proje-1-2</a>
+  <a href="https://github.com/2run66/ag-tabanli-final" style="font-size: 1.2em;">https://github.com/2run66/ag-tabanli-final</a>
 </div>
 <div style="page-break-after: always;"></div>
 
