@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  pg16_pitr:
+    image: postgres:16
+    container_name: pg16_pitr
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: adminpassword
+      POSTGRES_DB: e_ticaret_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./sql:/sql
+      - pg_data_pitr:/var/lib/postgresql/data
+      - pg_archive_pitr:/mnt/archive
+      - pg_backup_pitr:/mnt/backup
+    command: >
+      postgres
+      -c wal_level=replica
+      -c archive_mode=on
+      -c archive_command='cp %p /mnt/archive/%f'
+      -c log_statement='all'
+volumes:
+  pg_data_pitr:
+  pg_archive_pitr:
+  pg_backup_pitr:

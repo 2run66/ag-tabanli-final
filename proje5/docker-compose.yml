@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  pg16_etl_adv:
+    image: postgres:16
+    container_name: pg16_etl_adv
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: adminpassword
+      POSTGRES_DB: dwh_db
+    ports:
+      - "5436:5432"
+    volumes:
+      - ./sql:/sql
